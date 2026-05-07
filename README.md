@@ -1,14 +1,14 @@
 # VELOURA Café
 
-A cinematic café experience built with HTML, CSS, and Vanilla JavaScript.  
-Veloura blends dark aesthetics, smooth interactions, artisan food presentation, and immersive storytelling into a premium modern restaurant website.
+A cinematic café experience built with React, Vite, and modern frontend technologies.  
+Veloura blends dark aesthetics, smooth animations, artisan food presentation, and immersive storytelling into a premium modern restaurant website.
 
 ---
 
 ## Overview
 
-Veloura Café is a fully responsive restaurant and coffeehouse website designed with a luxurious noir-inspired atmosphere.  
-The project focuses on elegant UI/UX, cinematic visuals, handcrafted menu presentation, and smooth user interaction without using any frameworks.
+Veloura Café is a fully responsive restaurant and coffeehouse web application designed with a luxurious noir-inspired atmosphere.  
+The project focuses on elegant UI/UX, cinematic visuals, handcrafted menu presentation, and fluid user interaction powered by React.
 
 From velvet-themed interiors to artisan beverages and curated dining experiences, every section is crafted to deliver a premium digital café experience.
 
@@ -16,24 +16,27 @@ From velvet-themed interiors to artisan beverages and curated dining experiences
 
 ## Features
 
-- Cinematic dark-themed UI
+- Cinematic dark-themed interface
 - Fully responsive modern layout
-- Interactive artisan menu filtering
-- Smooth scrolling and hover animations
-- Elegant reservation section
+- Built with React + Vite
+- Interactive artisan menu section
+- Smooth scrolling and transitions
+- Elegant reservation experience
 - Premium gallery showcase
-- Customer testimonial section
+- Testimonial section
 - Newsletter subscription UI
-- Clean and organized code structure
-- Built entirely with Vanilla JavaScript
+- Component-based architecture
+- Optimized fast performance
 
 ---
 
 ## Tech Stack
 
-- HTML5
+- React.js
+- Vite
+- JavaScript (ES6+)
 - CSS3
-- Vanilla JavaScript
+- HTML5
 
 ---
 
@@ -72,7 +75,23 @@ Open the project folder:
 cd veloura-cafe
 ```
 
-Run the project by opening `index.html` in your browser.
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
 
 ---
 
@@ -81,12 +100,16 @@ Run the project by opening `index.html` in your browser.
 ```bash
 veloura-cafe/
 │
-├── index.html
-├── style.css
-├── script.js
-├── assets/
-│   ├── images/
-│   └── icons/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+├── vite.config.js
 └── README.md
 ```
 
@@ -96,10 +119,11 @@ veloura-cafe/
 
 - Online table booking system
 - Backend integration
+- Authentication system
 - Payment gateway support
 - Admin dashboard
 - Food ordering functionality
-- Dark/light theme switcher
+- Dark/light theme toggle
 
 ---
 
